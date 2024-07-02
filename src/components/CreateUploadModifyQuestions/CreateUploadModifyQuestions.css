@@ -1,0 +1,65 @@
+.create-upload-modify-questions {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.create-question,
+.upload-questions,
+.question-list {
+
+  margin: 1rem 0;
+  display: flex;
+  gap: 12px;
+}
+
+.question-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px 25px;
+}
+
+.form-input,
+.form-textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 0.5rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.form-button:hover {
+  background: #555;
+}
+
+.editBtn {
+  background: #2a9f0c !important;
+}
+
+.editBtn:hover {
+  background: #42b025 !important;
+}
+
+.deletBtn {
+  background: #c70202 !important;
+}
+
+.deletBtn:hover {
+  background: #c70d0d !important;
+}
+
+.question-item {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  background: #fff;
+}

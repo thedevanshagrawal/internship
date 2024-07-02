@@ -1,0 +1,39 @@
+.register-students {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.register-students h2{
+  text-align: center;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 35rem;
+}
+
+.form-button {
+  margin-top: 15px;
+  width: 17rem;
+  padding: 0.5rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.form-button:hover {
+  background: #555;
+}
